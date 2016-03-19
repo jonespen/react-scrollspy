@@ -14,7 +14,8 @@
     "build": "./node_modules/.bin/babel ./src/js/lib/Scrollspy.jsx --out-file ./scrollspy.js",
     "prepublish": "npm run build",
     "serve": "gulp serve",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "doc": "./node_modules/.bin/esdoc -c esdoc.json"
   },
   "repository": {
     "type": "git",
@@ -32,12 +33,14 @@
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "del": "^2.2.0",
+    "esdoc": "^0.4.6",
     "eslint-config-makotot": "0.0.6",
     "eslint-plugin-react": "^4.2.3",
     "gulp": "^3.9.1",
     "gulp-ejs": "^1.2.2",
     "gulp-eslint": "^1.1.1",
     "gulp-sass": "^2.2.0",
+    "http-server": "^0.9.0",
     "run-sequence": "^1.1.5",
     "vinyl-source-stream": "^1.1.0"
   },

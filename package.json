@@ -15,7 +15,8 @@
     "prepublish": "npm run build",
     "serve": "gulp serve",
     "lint": "gulp lint",
-    "doc": "./node_modules/.bin/esdoc -c esdoc.json"
+    "doc": "./node_modules/.bin/esdoc -c esdoc.json",
+    "serve-doc": "npm run doc && ./node_modules/.bin/http-server ./esdoc"
   },
   "repository": {
     "type": "git",

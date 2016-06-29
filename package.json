@@ -39,6 +39,7 @@
     "gulp-ejs": "^1.2.2",
     "gulp-eslint": "^1.1.1",
     "gulp-sass": "^2.2.0",
+    "react-router": "^2.5.1",
     "run-sequence": "^1.1.5",
     "vinyl-source-stream": "^1.1.0"
   },

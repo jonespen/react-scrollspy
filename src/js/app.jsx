@@ -15,10 +15,15 @@ const App = React.createClass({
       padding: '0 20px',
     }
 
+    const topMargin = {
+      marginTop: '400px'
+    }
+
     return (
       <div>
 
         <div>
+          <div style={ topMargin }></div>
           <section style={ style } id="section-1">section 1</section>
           <section style={ style } id="section-2">section 2</section>
           <section style={ style } id="section-3">
